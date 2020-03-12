@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@font-face{
+  font-family: 'FonteLogo';
+  src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+body {
+  background-color: rgb(220, 220, 220);
+  background-image: url('../23770-google-g-logo-icon-vector-icon-vector-eps.png');
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15;
+  text-align: justify;
+}
+figure.pic {
+  position: relative;
+  border: 8px solid white;
+  box-shadow: 1px 1px 4px black;
+}
+figure.pic img {
+  width: 100%;
+}
+figure.pic figcaption {
+  text-align: center;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: opacity 0.4s ease-out;
+}
+
+figure.pic:hover figcaption {
+  transition: 0.4s ease-in;
+  opacity: 1;
+}
+nav#menu {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+nav#menu ul {
+  text-transform: uppercase;
+  position: relative;
+  top: -240px;
+  left:290px
+}
+nav#menu li {
+  display: inline-block;
+  background-color: rgb(200, 200, 200);
+  padding: 10px;
+  transition: opacity 0.2s ease-out;
+}
+nav#menu h1 {
+  display: none;
+}
+nav#menu li:hover {
+  transition: 0.2s ease-in;
+  background-color: rgb(150, 150, 150);
+}
+nav#menu a {
+  color: black;
+  text-decoration: none;
+}
+hgroup#titulo{
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+hgroup#titulo h1{
+  color: rgb(120, 120, 120);
+  font-size: 20px;
+  margin-bottom: 0px;
+  
+}
+hgroup#titulo h2{
+  color: rgb(150, 150, 150);
+  font-size: 15px;
+  
+}
+hgroup#titulo h3{
+  color: rgb(120, 120, 120);
+  font-size: 8px;
+  text-align: right;
+  
+}
+hgroup.esq h2{
+  background-color: rgb(200, 200, 200);
+  font-size: 17;
+  text-align: center;
+  color: rgb(80, 80, 80);
+}
+div#interface {
+  width: 900px;
+  margin: 0px auto 10px auto;
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+  padding: 15px 15px 15px 15px;
+}
+img#icone{
+  position: relative;
+  left: 690px;
+  top: -50px;
+}
+header#cabecalho{
+  border-bottom: 1px rgb(150, 150, 150) solid;
+  height: 150;
+  background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
+
+}
+header#cabecalho h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: rgb(120, 120, 120);
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+  padding: 0px;
+  margin-bottom: 0px;
+}
+header#cabecalho h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: rgb(120,120,120);
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  padding: 0px;
+  margin-bottom: 0px;
+}
+section#corpo{
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  width: 500px;
+  float: left;
+  border-right: 1px solid rgb(150, 150, 150);
+  padding-right: 25px;
+}
+section#corpo video{
+  margin-bottom: 15px;
+  margin-right: 15px;
+  width: 100%;
+}
+
+aside#lateral{
+  background-color: rgb(200, 200, 200);
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  width: 350px;
+  float:right;
+  margin-left: 5px;
+  margin-top: 25px;
+  
+  box-shadow: 1px 1px 4px black;
+  padding: 5px;
+}
+aside#lateral h2{
+  background-color: rgb(120,120,120);
+  font-size: 17;
+  text-align: center;
+  color: rgb(220, 220, 220);
+}
+aside#lateral h1{
+  text-align: center;
+  color: rgb(80, 80, 80);
+}
+aside#lateral video{
+  width: 100%;
+}
+footer#rodape{
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 12;
+  clear: both;
+  border-top:1px solid rgb(150, 150, 150) ;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+table#tabela{
+  border: 1px solid rgb(120, 120, 120);
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+table#tabela td{
+  text-align: center;
+  border: 1px solid rgb(120, 120, 120);
+  padding: 10px;
+}
+table#tabela td.ce{
+  background-color: rgb(150, 150, 150);
+
+}
+table#tabela td.cd{
+  background-color: rgb(200, 200, 200);
+  
+}
+table#tabela caption{
+  background-color: rgb(150, 150, 150);
+  border-right: 2px solid rgb(120, 120, 120);
+  border-left: 2px solid rgb(120, 120, 120);
+  border-top: 2px solid rgb(120, 120, 120);
+}
