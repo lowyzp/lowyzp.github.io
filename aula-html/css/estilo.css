@@ -46,8 +46,9 @@ nav#menu {
 nav#menu ul {
   text-transform: uppercase;
   position: relative;
-  top: -240px;
-  left:290px
+  top: -245px;
+  left:320px;
+
 }
 nav#menu li {
   display: inline-block;
@@ -108,7 +109,7 @@ img#icone{
 }
 header#cabecalho{
   border-bottom: 1px rgb(150, 150, 150) solid;
-  height: 150;
+  height: 150px;
   background: url("../imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
 
 }
