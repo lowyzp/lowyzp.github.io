@@ -154,6 +154,21 @@ div#interface {
 	margin-right: 6px;
 	width: 182px;
 }
+.icone.fotos {
+	margin-top: -21px;
+	margin-right: 6px;
+	width: 182px;
+}
+.icone.multimidia {
+	margin-top: -21px;
+	margin-right: 6px;
+	width: 142px;
+}
+.icone.contato {
+	margin-top: -21px;
+	margin-right: 6px;
+	width: 142px;
+}
 
 header#cabecalho{
   border-bottom: 1px rgb(150, 150, 150) solid;
