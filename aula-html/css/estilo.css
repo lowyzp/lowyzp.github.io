@@ -137,8 +137,7 @@ div#interface {
   display: none;
 }
 
-.icone.default {
-  display: inline-block;
+.icone.index {
   margin-top: -16px;
   margin-right: 6px;
 }

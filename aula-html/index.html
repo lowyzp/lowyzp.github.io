@@ -9,36 +9,7 @@
 </head>
 <body>
     <div id="interface">
-        <header id="cabecalho">
-            <hgroup class="hgroup">
-                <h1>Google Glass</h1>
-                <h2>A revolução do Google está chegando</h2>
-            </hgroup>
-            <nav class="main_menu" id="menu">
-                <ul>
-                    <li>
-                        <a class="menu_button" data-icone="home" href="index.html">Home</a>
-                    </li><li>
-                        <a class="menu_button" data-icone="specs" href="specs.html">Especificações</a>
-                    </li><li>
-                        <a class="menu_button" data-icone="fotos" href="fotos.html">Fotos</a>
-                    </li><li>
-                        <a class="menu_button" data-icone="multimidia" href="multimidia.html">Multimídia</a>
-                    </li><li>
-                        <a class="menu_button" data-icone="contato" href="fale-conosco.html">Fale conosco</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="clear_both"></div>
-            <figure class="menu_icone">
-                <img class="icone default" src="imagens/glass-oculos-preto-peq.png" />
-                <img class="icone home" src="imagens/home.png" />
-                <img class="icone specs" src="imagens/especificacoes.png" />
-                <img class="icone fotos" src="imagens/fotos.png" />
-                <img class="icone multimidia" src="imagens/multimidia.png" />
-                <img class="icone contato" src="imagens/contato.png" />
-            </figure>
-        </header>
+        <header id="cabecalho"></header>
         <section id='corpo'>
             <hgroup id='titulo'>
                 <h2>Tecnologia > Inovações</h2>
@@ -150,28 +121,7 @@
             <a href='http://twitter.com/cursosemvideo' target='_blank'>Twitter</a>
         </footer>
     </div>
-    <script>
-        var teste = 456;
-        var botoes = document.getElementsByClassName("menu_button");
-        for(i = 0; i < botoes.length; i++) {
-            var botao = botoes[i];
-            botao.addEventListener("mouseout", function(e) {
-                var icones = document.getElementsByClassName("icone");
-                for(i = 0; i < icones.length; i++) {
-                    icones[i].setAttribute("style", "display: none;"); 
-                }
-                document.getElementsByClassName("icone default")[0].setAttribute("style", "display: inline-block;");
-            });
-            botao.addEventListener("mouseover", function(e) {
-                var icone = e.target.dataset.icone ?? "default";
-                var icones = document.getElementsByClassName("icone");
-                for(i = 0; i < icones.length; i++) {
-                    icones[i].setAttribute("style", "display: none;"); 
-                }
-                document.getElementsByClassName("icone " + icone)[0].setAttribute("style", "display: inline-block;");
-            });
-        }
-    </script>
+    <script src="javascript/aula.js"></script>
 </body>
 
 </html>
