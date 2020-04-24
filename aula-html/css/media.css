@@ -20,6 +20,4 @@ video#filme{
     top: 70px;
     width: 440px;
 }
-audio#musica::-webkit-media-controls-box{
-    display: none;
-}
+
