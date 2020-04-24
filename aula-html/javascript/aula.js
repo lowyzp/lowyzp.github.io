@@ -9,7 +9,7 @@ fetch("header.html")
         return response.text()
     })
     .then(data => {
-        document.querySelector("header").innerHTML = data;
+        document.querySelector("#cabecalho").innerHTML = data;
     })
     .then(() => {
         var botoes = document.getElementsByClassName("menu_button");
